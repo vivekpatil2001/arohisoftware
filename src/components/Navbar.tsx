@@ -113,6 +113,11 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/courses">
                 Experience Professionals
               </HoveredLink>
+              <HoveredLink href="/worken">
+                <span className=" hover:border-b-4 animate-in border-neutral-100 border-y-gray-400 ">
+                  Work environment
+                </span>
+              </HoveredLink>
             </div>
 
             <div className="flex flex-col space-y-4 pt-7">
@@ -126,6 +131,7 @@ function Navbar({ className }: { className?: string }) {
                   Training & Intership
                 </span>
               </HoveredLink>
+          
               <HoveredLink href="/contact">Contact Us</HoveredLink>
               <HoveredLink href="/faq">FAQ</HoveredLink>
             </div>
