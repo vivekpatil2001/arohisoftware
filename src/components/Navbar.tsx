@@ -22,16 +22,37 @@ function Navbar({ className }: { className?: string }) {
           ></MenuItem>
         </Link> */}
         <MenuItem setActive={setActive} active={active} item="what we do>">
+          <div className=" flex justify-around w-full px-20">
           <div className="flex flex-col space-y-4  p-7  text-xl ">
             <p className="mb-2 text-xl">
               What we do<span>➡️</span>
             </p>
             <HoveredLink href="/courses" className="">
-              <span className="text-sm text-slate-400">Capabilities</span>
+              <span className="text-sm text-slate-400">Services</span>
             </HoveredLink>
-            <HoveredLink href="/courses">All Services</HoveredLink>
-            <HoveredLink href="/courses">Marketing and Experience</HoveredLink>
+            <HoveredLink href="/courses">Digital </HoveredLink>
+            <HoveredLink href="/courses">Cloud</HoveredLink>
+            <HoveredLink href="/courses">Data</HoveredLink>
+            <HoveredLink href="/courses">Security</HoveredLink>
+            </div>
+            
+            <div className="flex flex-col space-y-4 mt-14 pt-7">
+              <HoveredLink href="/courses">
+                <span className="text-sm text-slate-400">
+                  Media & Investors
+                </span>
+              </HoveredLink>
+              <HoveredLink href="/courses">
+                <span className=" hover:border-b-4 animate-in border-neutral-100 border-y-gray-400 ">
+                  Media Relations
+                </span>
+              </HoveredLink>
+              <HoveredLink href="/courses">
+                <span className=" hover:border-b-4">Invester Relations</span>
+              </HoveredLink>
+            </div>
           </div>
+         
         </MenuItem>
 
         <Link href={"/"}>
