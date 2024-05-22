@@ -1,0 +1,37 @@
+.inovatingContainer{
+    background-color: rgb(228, 215, 215);
+    color: black;
+}
+h1{
+    padding-top: 3rem;
+    
+}
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.inovating-div1{
+    /* border: 1px solid black; */
+    width: 40rem;
+}
+.inovatingImg{
+    background-image: url('./inovating.png');
+  height: 20rem;
+  width: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    
+}
+.dark-line{
+    font-size: 1rem;
+    font-weight:bold;
+    font-style: italic;
+}
