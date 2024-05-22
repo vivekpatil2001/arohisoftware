@@ -13,6 +13,7 @@ function page() {
 <h1>Arohi pvt Work Environment</h1>
 
 <span>Be your best every day in a workplace culture that helps drive innovation in everything you do.</span>
+<h1>making changes</h1>
 </div>
 
 <div className='second-div'>
