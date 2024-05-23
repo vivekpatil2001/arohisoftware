@@ -113,7 +113,7 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/courses">
                 Experience Professionals
               </HoveredLink>
-              <HoveredLink href="/worken">
+              <HoveredLink href="/work">
                 <span className=" hover:border-b-4 animate-in border-neutral-100 border-y-gray-400 ">
                   Work environment
                 </span>
