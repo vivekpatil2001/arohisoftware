@@ -2,6 +2,7 @@
 import React from "react";
 
 import HeroSection from "@/components/HeroSection";
+import { CanavaHomeCard } from "@/components/HomepageCard";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -67,7 +68,7 @@ export default function Home() {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-
+        <CanavaHomeCard/>
         <div>
           <div className="flex justify-center text-center text-3xl font-bold mt-10 ">
             Every day, we embrace change and create value for all our
@@ -93,9 +94,7 @@ export default function Home() {
           </div>
       </div>
         
-       <div>
       
-       </div>
         <WhyChooseUs />
         <TestimonialCards />
 

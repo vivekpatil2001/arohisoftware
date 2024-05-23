@@ -30,9 +30,8 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/courses" className="">
               <span className="text-sm text-slate-400">Services</span>
             </HoveredLink>
-            <HoveredLink href="/courses">Digital </HoveredLink>
-            <HoveredLink href="/courses">Cloud</HoveredLink>
-            <HoveredLink href="/courses">Data</HoveredLink>
+            
+            <HoveredLink href="/courses">Services</HoveredLink>
             <HoveredLink href="/courses">Security</HoveredLink>
             </div>
             
