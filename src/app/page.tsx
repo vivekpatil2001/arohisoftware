@@ -52,9 +52,9 @@ export default function Home() {
               <div
                 className="relative h-[80vh] w-full"
                 style={{
-                  backgroundImage:
-                    "url('https://media.istockphoto.com/id/2140841133/photo/3d-rendering-showroom-underground-abstract-stage-background.webp?b=1&s=170667a&w=0&k=20&c=N1VQ3-C_ziUcf6FhcGaucwaW2LiH4Vj8zdV-8SsNN4Y=')",
-                  backgroundSize: "cover",
+                  // backgroundImage:
+                  //   "url('https://media.istockphoto.com/id/2140841133/photo/3d-rendering-showroom-underground-abstract-stage-background.webp?b=1&s=170667a&w=0&k=20&c=N1VQ3-C_ziUcf6FhcGaucwaW2LiH4Vj8zdV-8SsNN4Y=')",
+                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
                 }}
