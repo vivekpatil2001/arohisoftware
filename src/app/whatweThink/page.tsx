@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ThinkCard from '@/components/ThinkCard'
 const page = () => {
   return (
     <div>
@@ -29,6 +29,26 @@ const page = () => {
 
 
   
+</div>
+
+{/* cards display */}
+<div className='container  flex justify-around pt-10 flex-wrap '>
+
+<ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
+
+<ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
+
+<ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
+
+<ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
+
+<ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
+
+<ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
+
+<ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
+
+<ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
 </div>
 
 
