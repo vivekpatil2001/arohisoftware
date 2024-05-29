@@ -43,9 +43,9 @@ function Navbar({ className }: { className?: string }) {
                       </span>
                     </span>
                   </HoveredLink>
-                  <HoveredLink href="/courses">
+                  <HoveredLink href="/research">
                     <span className="hover:border-b-4 animate-in hover:text-blue-400 border-neutral-100 border-y-gray-400">
-                      Research And Inovations
+                      Research & Inovations
                     </span>
                   </HoveredLink>
                   <HoveredLink href="/courses">
@@ -188,7 +188,7 @@ function Navbar({ className }: { className?: string }) {
                 </div>
                </MenuItem>
             </Menu>
-            <div className="ml-60">
+            <div className="ml-[320px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 text-white"
@@ -259,9 +259,9 @@ function Navbar({ className }: { className?: string }) {
                       </span>
                     </span>
                   </HoveredLink>
-                  <HoveredLink href="/courses">
+                  <HoveredLink href="/research">
                     <span className="hover:border-b-4 animate-in hover:text-blue-400 border-neutral-100 border-y-gray-400">
-                      Research And Inovations
+                      Research & Inovations
                     </span>
                   </HoveredLink>
                   <HoveredLink href="/courses">
