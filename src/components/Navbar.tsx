@@ -71,7 +71,7 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/courses" className="">
                 <span className="text-sm text-slate-400">Our organization</span>
               </HoveredLink>
-              <HoveredLink href="/courses">Leaders</HoveredLink>
+              <HoveredLink href="/leaders">Leaders</HoveredLink>
               <HoveredLink href="/courses">Location</HoveredLink>
               <HoveredLink href="/gallery">
                 <span className=" hover:border-b-4">Gallery</span>
@@ -109,7 +109,7 @@ function Navbar({ className }: { className?: string }) {
                 <span className="text-sm text-slate-400">Find Jobs</span>
               </HoveredLink>
               <HoveredLink href="/courses">search all Jobs</HoveredLink>
-              <HoveredLink href="/courses">
+              <HoveredLink href="/experienceProf">
                 Experience Professionals
               </HoveredLink>
               <HoveredLink href="/worken">
