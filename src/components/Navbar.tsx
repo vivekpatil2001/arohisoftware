@@ -147,6 +147,24 @@ function Navbar({ className }: { className?: string }) {
             </Menu>
           </div>
 
+        <MenuItem setActive={setActive} active={active} item="What we are >">
+          <div className="flex justify-around space-y-6 space-x-10 p-10 text-xl  rounded ">
+            <div className=" flex flex-col space-y-4  text-xl">
+              <p className="mb-2">
+                About Arohi Software <span>➡️</span>
+              </p>
+              <HoveredLink href="/courses" className="">
+                <span className="text-sm text-slate-400">Our organization</span>
+              </HoveredLink>
+              <HoveredLink href="/leaders">Leaders</HoveredLink>
+              <HoveredLink href="/courses">Location</HoveredLink>
+              <HoveredLink href="/gallery">
+                <span className=" hover:border-b-4">Gallery</span>
+              </HoveredLink>
+              <HoveredLink href="/events">
+                <span className=" hover:border-b-4">Events</span>
+              </HoveredLink>
+
           {/* Search Icon and Burger icon for small screens */}
           <div className="flex items-center space-x-4">
             <div className="hidden lg:block">
@@ -169,6 +187,7 @@ function Navbar({ className }: { className?: string }) {
                   />
                 </svg>
               </button>
+
             </div>
 
             <div className="block lg:hidden">
@@ -204,6 +223,43 @@ function Navbar({ className }: { className?: string }) {
             </div>
           </div>
         </div>
+
+
+        <MenuItem setActive={setActive} active={active} item="Careers >">
+          <div className="flex justify-around space-y-6 space-x-10 p-10 text-xl  rounded ">
+            <div className=" flex flex-col space-y-4">
+              <p className="mb-2">
+                Carrers home <span>➡️</span>
+              </p>
+              <HoveredLink href="/courses" className="">
+                <span className="text-sm text-slate-400">Find Jobs</span>
+              </HoveredLink>
+              <HoveredLink href="/courses">search all Jobs</HoveredLink>
+              <HoveredLink href="/experienceProf">
+                Experience Professionals
+              </HoveredLink>
+              <HoveredLink href="/worken">
+                <span className=" hover:border-b-4 animate-in border-neutral-100 border-y-gray-400 ">
+                  Work environment
+                </span>
+              </HoveredLink>
+            </div>
+
+            <div className="flex flex-col space-y-4 pt-7">
+              <HoveredLink href="/courses">
+                <span className="text-sm text-slate-400">
+                  Training & Interships
+                </span>
+              </HoveredLink>
+              <HoveredLink href="/courses">
+                <span className=" hover:border-b-4 animate-in border-neutral-100 border-y-gray-400 ">
+                  Training & Intership
+                </span>
+              </HoveredLink>
+          
+              <HoveredLink href="/contact">Contact Us</HoveredLink>
+              <HoveredLink href="/faq">FAQ</HoveredLink>
+            </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
@@ -331,6 +387,7 @@ function Navbar({ className }: { className?: string }) {
                 </div>
               </MenuItem>
             </Menu>
+
           </div>
         )}
       </nav>
