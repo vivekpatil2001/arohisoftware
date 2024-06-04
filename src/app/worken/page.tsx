@@ -1,5 +1,7 @@
 "use client"
 
+import Footer from "@/components/Footer"
+
 function page() {
   return (
     <div>
@@ -58,6 +60,7 @@ function page() {
         </div>
 
       </div>
+      <Footer/>
     </div>
   )
 }
