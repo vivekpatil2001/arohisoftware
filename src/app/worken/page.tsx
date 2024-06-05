@@ -1,6 +1,12 @@
 "use client"
+
 import WorkCard from "@/components/WorkCard/WorkCard"
 import './worken.css'
+
+
+import Footer from "@/components/Footer"
+
+
 function page() {
   return (
     <div>
@@ -64,6 +70,7 @@ function page() {
 
       </div>
 
+
       <div className='workBalance'>
 
 <div className='workBalance-container'>
@@ -80,6 +87,8 @@ function page() {
 </div>
 
 </div>
+
+      <Footer/>
 
     </div>
   )

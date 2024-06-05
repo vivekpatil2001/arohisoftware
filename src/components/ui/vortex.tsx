@@ -237,7 +237,10 @@ export const Vortex = (props: VortexProps) => {
   }, []);
 
   return (
-    <div className={cn("relative h-full w-full", props.containerClassName)}>
+    <div className={cn("relative h-full w-full", props.containerClassName)} style={{
+      backgroundColor: backgroundColor,
+      opacity: 0.6, // Set the opacity here
+    }}>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
