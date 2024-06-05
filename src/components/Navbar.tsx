@@ -12,7 +12,7 @@ function Navbar({ className }: { className?: string }) {
 
   return (
     <div className={cn("fixed top-0 inset-x-0 z-50 w-full", className)}>
-      <nav className="bg-transparent w-full py-3">
+      <nav className="bg-black w-full">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
             <Link href="/">
@@ -20,7 +20,7 @@ function Navbar({ className }: { className?: string }) {
             </Link>
           </div>
 
-          <div className="hidden lg:flex items-center justify-center flex-grow">
+          <div className="hidden lg:flex items-center  justify-center flex-grow">
             <Menu setActive={setActive} className={isMenuOpen ? "block" : "hidden lg:flex"}>
               <MenuItem setActive={setActive} active={active} item="What we do >">
                 <div className="flex justify-around space-y-6 space-x-10 p-10 rounded">
@@ -29,7 +29,7 @@ function Navbar({ className }: { className?: string }) {
                       What we do<span>➡️</span>
                     </p>
                     <HoveredLink href="/service">
-                      <span className="text-sm text-slate-400">
+                      <span className="">
                         <span className="hover:border-b-4 animate-in hover:text-blue-400 border-neutral-100 border-y-gray-400">
                           Services
                         </span>
@@ -73,7 +73,7 @@ function Navbar({ className }: { className?: string }) {
                     <HoveredLink href="/courses">
                       <span className="text-sm text-slate-400">Our organization</span>
                     </HoveredLink>
-                    <HoveredLink href="/courses">
+                    <HoveredLink href="/leaders">
                       <span className="hover:border-b-4 hover:text-blue-400">Leaders</span>
                     </HoveredLink>
                     <HoveredLink href="/courses">
@@ -115,7 +115,7 @@ function Navbar({ className }: { className?: string }) {
                         Search all Jobs
                       </span>
                     </HoveredLink>
-                    <HoveredLink href="/courses">
+                    <HoveredLink href="/experienceProf">
                       <span className="hover:border-b-4 animate-in hover:text-blue-400 border-neutral-100 border-y-gray-400">
                         Experience Professionals
                       </span>
@@ -257,7 +257,7 @@ function Navbar({ className }: { className?: string }) {
                       Our organization
                     </span>
                   </HoveredLink>
-                  <HoveredLink href="/courses">
+                  <HoveredLink href="/leaders">
                     <span className="text-sm text-slate-400">Leaders</span>
                   </HoveredLink>
                   <HoveredLink href="/courses">
@@ -298,7 +298,7 @@ function Navbar({ className }: { className?: string }) {
                       Search all Jobs
                     </span>
                   </HoveredLink>
-                  <HoveredLink href="/courses">
+                  <HoveredLink href="/experienceProf">
                     <span className="text-sm text-slate-400">
                       Experience Professionals
                     </span>
