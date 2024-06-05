@@ -1,5 +1,6 @@
 import React from 'react'
 import LeadersCards from '@/components/LeadersCards/LeadersCards'
+import Footer from '@/components/Footer'
 
 const page = () => {
     return (
@@ -47,6 +48,7 @@ const page = () => {
                 
 
             </div>
+            <Footer/>
         </div>
     )
 }
