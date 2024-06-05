@@ -2,6 +2,7 @@ import { url } from 'inspector'
 import React from 'react'
 import WorkCard from '@/components/WorkCard/WorkCard'
 import Footer from '@/components/Footer'
+
 const page = () => {
     return (
         <div>
