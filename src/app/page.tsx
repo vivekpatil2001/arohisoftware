@@ -78,35 +78,19 @@ export default function Home() {
             >
               {" "}
             </div>
-            <div className="flex justify-between items-center p-8 lg:flex-row sm:flex-col">
-              <div
-                className=" relative flex justify-center text-center text-5xl font-semibold mt-[90px] h-[300px] w-[600px] "
-                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-              >
-                " Every day, we embrace change and create value for all our
-                stakeholders, in every part of the world. "
-              </div>
-
-              <div className=" relative h-[200px] ml-[260px] w-[500px]">
-                <p className=" font-light ">
-                  <span className=" font-bold text-4xl w-[200px] pb-8 ">
-                    Arohi responsible AI <br />
-                    blueprint
-                  </span>
-                  <br />
-                  <br />
-                  Accenture has operationalized ethical AI in our <br />
-                  company. Now, our responsible AI program is also
-                  <br /> helping clients around the world use AI intelligently
-                  <br />
-                  and responsibly.
-                </p>
-              </div>
+            <div className="mt-48">
+              <p>
+                <span className=" font-bold text-2xl  ">Arohi responsible AI <br/>blueprint</span><br/><br/>
+                 Accenture has operationalized ethical AI in our <br/>company. Now, our
+                  responsible AI program is also<br/> helping clients around the world use AI intelligently<br/>
+                 and responsibly.
+              </p>
             </div>
            <button className=" relative shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">connect</button>
           </div>
-        </div>
-
+      </div>
+        
+      
         <WhyChooseUs />
         <TestimonialCards />
 
