@@ -1,5 +1,6 @@
 import React from 'react'
 import ThinkCard from '@/components/ThinkCard'
+import Footer from '@/components/Footer'
 const page = () => {
   return (
     <div>
@@ -51,7 +52,7 @@ const page = () => {
 <ThinkCard images='https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg' altText='this is img' title='Generative AI for customer growth' text='Real work today suggests generative AI is poised to help businesses achieve stronger growth across marketing, sales and services.' />
 </div>
 
-
+      <Footer/>
     </div>
   )
 }

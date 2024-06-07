@@ -3,8 +3,7 @@ import React from "react";
 
 import HeroSection from "@/components/HeroSection";
 import { CanavaHomeCard } from "@/components/HomepageCard";
-
-import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import {
   Carousel,
   CarouselContent,
@@ -17,7 +16,7 @@ import TestimonialCards from "@/components/TestimonialCards";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 import Footer from "@/components/Footer";
-import logo from "./logo.png";
+import home from "../../public/home.jpg";
 
 export default function Home() {
   const cards = [
@@ -70,31 +69,28 @@ export default function Home() {
         </Carousel>
         <CanavaHomeCard />
         <div>
-          <div className="flex justify-center text-center text-3xl font-bold mt-10 ">
-            Every day, we embrace change and create value for all our
-            <br />
-            stakeholders, in every part of the world.
-          </div>
-
-          <div className="flex justify-around">
-            <div>
-              <img
-                src="https://dynamicmedia.accenture.com/is/image/accenture/Accenture-blueprint-for-responsible-AI%3Arad-3x2?ts=1715743629896&fit=constrain&dpr=off"
-                className=" h-96 mb-20 m-8"
-              />
+          <div className="relative flex flex-col h-[600px] w-full justify-center items-center">
+            <div
+              className=" absolute inset-0 bg-cover opacity-45"
+              style={{
+                backgroundImage: `url(https://images.unsplash.com/photo-1603201667230-bd139210db18?q=80&w=1788&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
+              }}
+            >
+              {" "}
             </div>
             <div className="mt-48">
               <p>
-                <span className=" font-bold text-2xl  ">Arohi responsible AI <br />blueprint</span><br /><br />
-                Accenture has operationalized ethical AI in our <br />company. Now, our
-                responsible AI program is also<br /> helping clients around the world use AI intelligently<br />
-                and responsibly.
+                <span className=" font-bold text-2xl  ">Arohi responsible AI <br/>blueprint</span><br/><br/>
+                 Accenture has operationalized ethical AI in our <br/>company. Now, our
+                  responsible AI program is also<br/> helping clients around the world use AI intelligently<br/>
+                 and responsibly.
               </p>
             </div>
+           <button className=" relative shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">connect</button>
           </div>
-        </div>
-
-
+      </div>
+        
+      
         <WhyChooseUs />
         <TestimonialCards />
 
