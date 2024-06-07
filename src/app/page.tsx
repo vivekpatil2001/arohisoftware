@@ -54,7 +54,7 @@ export default function Home() {
                 style={{
                   // backgroundImage:
                   //   "url('https://media.istockphoto.com/id/2140841133/photo/3d-rendering-showroom-underground-abstract-stage-background.webp?b=1&s=170667a&w=0&k=20&c=N1VQ3-C_ziUcf6FhcGaucwaW2LiH4Vj8zdV-8SsNN4Y=')",
-                   backgroundSize: "cover",
+                  backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
                 }}
@@ -68,7 +68,7 @@ export default function Home() {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-        <CanavaHomeCard/>
+        <CanavaHomeCard />
         <div>
           <div className="flex justify-center text-center text-3xl font-bold mt-10 ">
             Every day, we embrace change and create value for all our
@@ -85,16 +85,16 @@ export default function Home() {
             </div>
             <div className="mt-48">
               <p>
-                <span className=" font-bold text-2xl  ">Arohi responsible AI <br/>blueprint</span><br/><br/>
-                 Accenture has operationalized ethical AI in our <br/>company. Now, our
-                  responsible AI program is also<br/> helping clients around the world use AI intelligently<br/>
-                 and responsibly.
+                <span className=" font-bold text-2xl  ">Arohi responsible AI <br />blueprint</span><br /><br />
+                Accenture has operationalized ethical AI in our <br />company. Now, our
+                responsible AI program is also<br /> helping clients around the world use AI intelligently<br />
+                and responsibly.
               </p>
             </div>
           </div>
-      </div>
-        
-      
+        </div>
+
+
         <WhyChooseUs />
         <TestimonialCards />
 

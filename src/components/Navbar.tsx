@@ -23,18 +23,18 @@ function Navbar({ className }: { className?: string }) {
         </Link> */}
         <MenuItem setActive={setActive} active={active} item="what we do>">
           <div className=" flex justify-around w-full px-20">
-          <div className="flex flex-col space-y-4  p-7  text-xl ">
-            <p className="mb-2 text-xl">
-              What we do<span>➡️</span>
-            </p>
-            <HoveredLink href="/courses" className="">
-              <span className="text-sm text-slate-400">Services</span>
-            </HoveredLink>
-            
-            <HoveredLink href="/courses">Services</HoveredLink>
-            <HoveredLink href="/security">Security</HoveredLink>
+            <div className="flex flex-col space-y-4  p-7  text-xl ">
+              <p className="mb-2 text-xl">
+                What we do<span>➡️</span>
+              </p>
+              <HoveredLink href="/courses" className="">
+                <span className="text-sm text-slate-400">Services</span>
+              </HoveredLink>
+
+              <HoveredLink href="/courses">Services</HoveredLink>
+              <HoveredLink href="/security">Security</HoveredLink>
             </div>
-            
+
             <div className="flex flex-col space-y-4 mt-14 pt-7">
               <HoveredLink href="/courses">
                 <span className="text-sm text-slate-400">
@@ -51,7 +51,7 @@ function Navbar({ className }: { className?: string }) {
               </HoveredLink>
             </div>
           </div>
-         
+
         </MenuItem>
 
         <Link href={"/whatweThink"}>
@@ -119,18 +119,28 @@ function Navbar({ className }: { className?: string }) {
               </HoveredLink>
             </div>
 
+
+
+
             <div className="flex flex-col space-y-4 pt-7">
+            <Link href={"/courses"}>
               <HoveredLink href="/courses">
                 <span className="text-sm text-slate-400">
                   Training & Interships
                 </span>
               </HoveredLink>
-              <HoveredLink href="/courses">
-                <span className=" hover:border-b-4 animate-in border-neutral-100 border-y-gray-400 ">
-                  Training & Intership
-                </span>
-              </HoveredLink>
-          
+              </Link>
+              <Link href={"/courses"}>
+                <HoveredLink href="/courses">
+                  <span className=" hover:border-b-4 animate-in border-neutral-100 border-y-gray-400 ">
+                    Training & Intership
+                  </span>
+                </HoveredLink>
+              </Link>
+
+
+
+
               <HoveredLink href="/contact">Contact Us</HoveredLink>
               <HoveredLink href="/faq">FAQ</HoveredLink>
             </div>
