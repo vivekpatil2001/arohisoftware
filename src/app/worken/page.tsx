@@ -10,21 +10,18 @@ import Footer from "@/components/Footer"
 function page() {
   return (
     <div>
-      <div className='  bg-black h-24'>
-
-      </div>
-
+      
       <div className=" bg-white ">
 
 
-        <div className="container  flex justify-around items-center flex-wrap h-[80vh] ">
+        <div className="container h-[60vh] py-20 sm:flex justify-around items-center flex-wrap sm:h-[80vh] ">
 
-          <div className=" w-5/12">
-            <p className="text-black text-6xl font-bold">Arohi Work <br></br> Environment</p>
+          <div className=" sm:w-5/12 w-[80vw] border">
+            <p className="text-black text-2xl sm:text-6xl font-bold">Arohi Work <br></br> Environment</p>
             <p className="text-black font-light text-1xl mt-5">Be your best every day in a workplace culture that helps drive innovation in everything you do.</p>
           </div>
 
-          <div className="h-[55vh] w-7/12" style={{
+          <div className="sm:h-[55vh] h-[20vh] w-[80vw] mt-4 sm:w-7/12" style={{
             backgroundImage:
               "url('https://dynamicmedia.accenture.com/is/image/accenture/Accenture-work-environment-marquee?qlt=85&wid=1024&ts=1686340609764&fit=constrain&dpr=off')",
             backgroundSize: "cover",
@@ -38,13 +35,13 @@ function page() {
 
       </div>
 
-      <div className=" h-[80vh] bg-gray-200 ">
+      <div className=" sm:h-[80vh] h-[90vh] bg-gray-200 ">
         <div className="container">
-          <p className="text-black text-5xl text-center pt-6  font-bold">Innovating in a truly human way
+          <p className="text-black text-2xl sm:text-5xl text-center pt-6  font-bold">Innovating in a truly human way
           </p>
 
-          <div className="container mt-6  flex justify-around items-center " >
-            <div className="w-[35vw] ">
+          <div className="container mt-6  sm:flex justify-around items-center " >
+            <div className="sm:w-[35vw] w-[80vw] ">
               <p className="text-black font-midium">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel quos facere sapiente. Nisi incidunt velit cum inventore qui odit error quam quasi, dolorum expedita enim, fugiat dicta nesciunt corrupti!
                 <br />
                 <br/>
@@ -55,7 +52,7 @@ function page() {
               </p>
             </div>
 
-            <div className="h-[55vh] w-4/12 " style={{
+            <div className="h-[55vh] w-4/12 dispay-none " style={{
               backgroundImage:
                 "url('https://dynamicmedia.accenture.com/is/image/accenture/Accenture-work-environment-img1?qlt=85&wid=800&ts=1704397327799&fit=constrain&dpr=off')",
               backgroundSize: "cover",

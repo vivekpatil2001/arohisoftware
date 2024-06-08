@@ -8,9 +8,10 @@ interface LeadersCardsProps {
 }
 const LeadersCards: React.FC<LeadersCardsProps> = ({ imgages, title, text, altText }) => {
     return (
-        <div className='border mt-6 flex w-[25vw] box'>
-            <div> <img src={`${imgages}`} alt={altText} className='h-[25vh] w-[15vw]' /></div>
-            <div className='bg-white w-[15vw] pl-4'><h3 className='text-2xl mt-2 font-bold'>{title}</h3>
+        <div className='border sm:h-[25vh] xl:w-[25vw] lg:w-[30vw] sm:w-[35vw] w-[70vw] h-[25vh] mt-6 flex   box'>
+            <div> <img src={`${imgages}`} alt={altText} className='sm:h-[25vh] h-[25vh] w-[40vw] sm:w-[20vw]' /></div>
+
+<div className='bg-white sm:w-[15vw] w-[30vw] pl-4'><h3 className='text-2xl mt-2 font-bold'>{title}</h3>
                 <h4 className='font-midium'>{text}</h4></div>
 
             <div className='overlay'>

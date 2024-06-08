@@ -3,8 +3,8 @@
     position: relative;
     overflow: hidden;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-    width: 25vw;
-    height: 25vh;
+    /* width: 25vw;
+    height: 25vh; */
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
     /* margin-top: 2rem; */
